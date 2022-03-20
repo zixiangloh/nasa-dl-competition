@@ -4,7 +4,16 @@ https://www.drivendata.org/competitions/88/competition-air-quality-pm/
   
 Instruction:  
 1. Run download_data.ipynb to download the training dataset. (Needs AWS CLI). See https://tinyurl.com/bdeh4wwd  
-2. Models and training are all in nasa_airathon.ipynb.  
+2. Preprocess the data with the nasa_airathon_data_preprocessor_run\* scripts.  
+3. Models and training are all in nasa_airathon.ipynb.  
+  
+Repo & Data Structure:  
+The repo will look like so after running the download_data script and the preprocessing scripts  
+repo  
+\|-- train/\*.hdf,\*.nc  
+\|-- test/\*.hdf,\*.nc  
+\|-- train_processed_pickles/\*.pbz2  
+\|-- test_processed_pickles/\*.pbz2  
   
 Contributors:  
 zl3021@columbia.edu  
