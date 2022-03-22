@@ -16,7 +16,7 @@ Other items:
 Things provided:  
 1. submission_format.csv is provided for submission to the competition website. Must be the same format  
 2. grid_metadata.csv, train_labels.csv and pm25_satellite_metadata.csv is provided to us as part of the competition.  
-3. submission_model_39_r2_val_0p5273908363822994.csv is the highest R^2 cross validation score model we have (and also the one we submitted with 0.56 R2).  
+3. submission_model_39_r2_val_0p5273908363822994.csv is the highest R^2 cross validation score model we have (and also the one we submitted with 0.56 R^2).  
   
 Repo & Data Structure:  
 The repo will look like so after running the download_data script and the preprocessing scripts  
